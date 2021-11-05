@@ -40,7 +40,3 @@ config/master.key
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
-
-# Ignore uploaded files in development
-/storage/*
-!/storage/.keep
