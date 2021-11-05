@@ -1,10 +1,10 @@
 <div class="col-md-6 mx-auto my-5">
   <h1 class="text-center bold text-success">Log in</h1>
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <div class="form-group">
-      <%= f.label :email %><br />
-      <%= f.email_field :email, class:"form-control", autofocus: true, autocomplete: "email" %>
-   </div>
+   <div class="form-group">
+        <%= f.label :mobile_no %><br />
+        <%= f.text_field :mobile_no, class:"form-control", autofocus: true, autocomplete: "mobile_no" %>
+      </div>
 
   <div class="form-group">
      <%= f.label :password %>
