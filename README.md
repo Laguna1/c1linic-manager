@@ -1,1 +1,1 @@
-# c1linic-manager
+# clinic-manager
