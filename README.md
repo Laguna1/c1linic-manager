@@ -6,6 +6,8 @@
 
 * Categories - `https://github.com/Laguna1/implementing-categories-in-Ruby-on-Rails/tree/branch-1` or - `https://blog.skcript.com/implementing-categories-in-ruby-on-rails-14c2b5e77b34`
 
+* Relationships - `https://github.com/Laguna1/Friends4ever`
+
 
 
 * Ruby version - `2.7.2`
