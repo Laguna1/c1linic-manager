@@ -1,14 +1,16 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
-RSpec.describe "roles/show", type: :view do
+RSpec.describe 'roles/show', type: :view do
   before(:each) do
     @role = assign(:role, Role.create!(
-      name: "Name",
-      description: "Description"
-    ))
+                            name: 'Name',
+                            description: 'Description'
+                          ))
   end
 
-  it "renders attributes in <p>" do
+  it 'renders attributes in <p>' do
     render
     expect(rendered).to match(/Name/)
     expect(rendered).to match(/Description/)
