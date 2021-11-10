@@ -1,6 +1,13 @@
 # README
 
 
+* Roles - `https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails/`
+
+
+* Categories - `https://github.com/Laguna1/implementing-categories-in-Ruby-on-Rails/tree/branch-1` or - `https://blog.skcript.com/implementing-categories-in-ruby-on-rails-14c2b5e77b34`
+
+
+
 * Ruby version - `2.7.2`
 - Rails version - `6.1.4.1`
 - Postgres: >=9.5

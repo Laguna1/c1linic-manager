@@ -4,8 +4,8 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
-         validates :email, uniqueness: true
-         validates :mobile_no, uniqueness: true
+  validates :email, uniqueness: true
+  validates :mobile_no, uniqueness: true
          
          # Search user by mobile number(not email)
          def self.find_first_by_auth_conditions(warden_conditions)
